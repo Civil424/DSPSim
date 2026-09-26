@@ -1,9 +1,8 @@
+#include "engine/engine.h"
 
-
-int main(){
-    bool run = true;
-
-    while(run) {
-        return 0;
-    }
+int main() {
+    Engine Engine;
+    Engine.run();
+    
+    return 0;
 }

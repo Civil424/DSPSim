@@ -1,2 +1,2 @@
-for build: cmake --build build
-for run: ./build/DSPSim
+- for build: cmake --build build
+- for run: ./build/DSPSim
