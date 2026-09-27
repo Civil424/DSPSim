@@ -6,7 +6,15 @@ find_package(glfw3 REQUIRED)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(DSPSim src/main.cpp src/engine/engine.cpp src/window/window.cpp src/render/render.cpp src/glad.c)
+add_executable(DSPSim 
+    src/main.cpp 
+    src/engine/engine.cpp 
+    src/window/window.cpp 
+    src/render/render.cpp 
+    src/mesh/mesh.cpp 
+    src/shader/shader.cpp
+    src/glad.c
+)
 
 target_link_libraries(DSPSim PRIVATE glfw)
 
